@@ -77,8 +77,8 @@ if __name__ == '__main__':
   #m = Mimic()
 
   m = Mimic()
-  
-  m.mimic_dict('sample_novel.txt')
-  #m.print_mimic('a')
+  fn = "sample_novel.txt"
+  m.mimic_dict(fn)
+  m.print_mimic('a')
   
 
